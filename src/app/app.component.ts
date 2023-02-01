@@ -27,6 +27,7 @@ export class AppComponent {
     toppings: ['pepperoni', 'bacon'],
     size: 'large'
   }
+  blueClass = false
 
   getName() {
     return this.name;
